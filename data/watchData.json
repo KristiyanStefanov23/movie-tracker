@@ -1,8 +1,30 @@
 {
     "movie": [
-        {}
+        {
+            "name": "test",
+            "episodes": "test"
+        },
+        {
+            "name": "test1",
+            "episodes": "test1"
+        },
+        {
+            "name": "test2",
+            "episodes": "test2"
+        }
     ],
-    "serial": [
-        {}
+    "series": [
+        {
+            "name": "test",
+            "episodes": "test"
+        },
+        {
+            "name": "test1",
+            "episodes": "test1"
+        },
+        {
+            "name": "test2",
+            "episodes": "test2"
+        }
     ]
 }
