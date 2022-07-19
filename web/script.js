@@ -1,6 +1,6 @@
 $(() => {
     $.ajax({
-        url: '../data/watchData.json', success: (res) =>
+        url: 'https://kristiyanstefanov23.github.io/movie-tracker/data/watchData.json', success: (res) =>
             Object.entries(res).forEach(([key, value]) => {
                 const tr = create('tr', $('#watchData')[0]);
                 create('td', tr, key);
